@@ -2,7 +2,7 @@
 > 🟢 RAS
 
 - Les notions de bases sont assez bien prise en mains et globalement le travail realiser est assez encoureageant 
-- 
+- Le point d'amelioration serait l'organisation du code source
 
 ---
 # Apprenant 2 
@@ -18,6 +18,7 @@
 
 - Les notions de bases ne sont pas prises en mains 
 - L'apprenant doit ameliorer les bases et fournir plus d'effort
+- - Un accent serait a mettre sur l'utilisation des boucles, des conditions avant de pouvoir passer au autres notions 
 
 ---
 # Apprenant 4
