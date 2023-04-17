@@ -2,10 +2,7 @@
 
 ##  Structure et organisation du code et des fichiers source
 
-La structure est assez bien géré, tout de meme le code ne couvre pas l'ensemble des fonctionalités attendus 
-
-Le nomage des fonctions n'est pas tres explicite   
-Le nom de la function doit etre le proche possible de l'action que realise cette fonction
+La structure est assez bien gérée, tout de même le code ne couvre pas l'ensemble des fonctionnalités attendues 
 
 ##  Autres
 
@@ -14,19 +11,17 @@ Il serait judicieux de t'ameliorer sur les notions suivantes je t'es fourni avec
 - La gestion des requetes SQL [(doc. SQL)](https://sql.sh/cours/where)
 
 
-- Lorsque tu fait appel a une fonction il te faut verifier si celle prends des parametres
-- Lorsque tu fait appel a la fontion render il n'est pas necessaire de renvoyer un deuxieme parametre si celui ci est un element vide
+- Lorsque tu fais appel à une fonction, il te faut vérifier si celle-ci prend des paramètres
+- Lorsque tu fais appel a la fonction **"render"**, il n'est pas nécessaire de renvoyer un deuxième paramètre si celui-ci est un élément vide
 ```
   res.render('card',{
       
   });
 ```
-idealement fait plutot ceci *tu as juste a renvoyer la view*
+idéalement, fais plutôt ceci *Tu as juste à renvoyer la view*
 ```
   res.render('card');
 ```
-
-## validations du projet
 
 ### L'utilisateur doit pouvoir
 

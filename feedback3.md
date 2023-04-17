@@ -2,27 +2,23 @@
 
 ##  Structure et organisation du code et des fichiers source
 
-La structure est assez bien géré, tout de meme le code ne couvre pas l'ensemble des fonctionalités attendus 
+La structure est assez bien gérée, tout de même le code ne couvre pas l'ensemble des fonctionnalités attendues 
 
-Le nomage des fonctions n'est pas tres explicite   
-Le nom de la function doit etre le proche possible de l'action que realise cette fonction
+Le nommage des fonctions n'est pas très explicite, le fait d'avoir des variables et des fonctions assez bien nommées facilite aussi grandement la lecture du code
 
 ##  Autres
 
-Globalement les notions de bases ne sont pas assez bien maitrisé
-- Gestions des rendus de templates [doc EJS](https://www.topcoder.com/thrive/articles/using-ejs-template-engine-with-express-js) 
-- La gestion des requetes SQL [(doc. SQL)](https://sql.sh/cours/where) et n'hesite a me poser tes questions
-
+Globalement, les notions de base ne sont pas assez bien maîtrisées
+- Gestion des rendus de templates [doc EJS](https://www.topcoder.com/thrive/articles/using-ejs-template-engine-with-express-js) 
+- La gestion des requêtes SQL [(doc. SQL)](https://sql.sh/cours/where) et n'hésite pas à me poser tes questions
 
 ### Page Detail de carte  
-- Les valeurs *(variables, constantes, tableau ...)* envoyé a la view sont un peu comme des parametres (mais des parametres ou le nom que tu envoie est le meme nom que tu va utiliser dans la view)
-- Afin de pouvoir placer une boucle sur la "variable" qui est envoyé vers la view il faut celle-ci soit iterable *ex: (un Tableau, objet JSON, chaine de caractere...)*
-- La boucle placé sur la variable card ne fonctionne pas car la variable *card* n'est pas un element iterable 
-- Il serait plus judicieux d'utiliser ParseInt pour le cast de ta variable en nombre
+- Les valeurs *(variables, constantes, tableau...)* envoyées à la view sont un peu comme des paramètres (mais des paramètres ou le nom que tu envoies est le même nom que tu vas utiliser dans la view)
+- Afin de pouvoir placer une boucle sur la "variable" qui est envoyée vers la view il faut celle-ci soit itérable *ex : (un Tableau, objet JSON, chaîne de caractère...)*
+- La boucle placée sur la variable card ne fonctionne pas, car la variable *card* n'est pas un élément itérable 
+- Il serait plus judicieux d'utiliser ParseInt pour le caste de ta variable en nombre
 
 ###
-
-## validations du projet
 
 ### L'utilisateur doit pouvoir
 
